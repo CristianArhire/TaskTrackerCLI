@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Others
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.jfm
+*.pdb
+*.cache
+*.ide
+
+# OS generated files
+.DS_Store
+Thumbs.db
