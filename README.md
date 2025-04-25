@@ -9,10 +9,12 @@ A simple Command-Line Interface (CLI) application for managing your daily tasks.
 - **Add Tasks**: Create new tasks with a description.
 - **Update Tasks**: Change the description of an existing task.
 - **Delete Tasks**: Remove tasks by their unique ID.
-- **Task Status Management**: Mark tasks as `all`, `in-progress`, or `done`.
+- **Task Status Management**: Mark tasks as `todo`, `in-progress`, or `done`.
 - **List Tasks**: View all tasks or filter by their status.
 - **Data Persistence**: All tasks are stored in a local JSON file (`tasks.json`).
 - **No external dependencies**: Only .NET Standard Libraries are used.
+
+> **Project inspired by the [Task Tracker CLI project at roadmap.sh](https://roadmap.sh/projects/task-tracker).**
 
 ---
 
@@ -46,11 +48,3 @@ dotnet run mark-in-progress 1
 
 # Mark a task as done
 dotnet run mark-done 1
-
-
----
-
-## Project Source
-
-This project was inspired by the [Task Tracker CLI project at roadmap.sh](https://roadmap.sh/projects/task-tracker).
-
